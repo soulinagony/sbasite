@@ -1,0 +1,321 @@
+/* Set background color and font for the whole page */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Style for the header */
+  header {
+    background-color: #000;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    top: 0;
+    left: 0rem;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0px 10px 10px #888888;
+  }
+  
+  /* Style for the logo image */
+  header img {
+    height: 1rem;
+    float: left;
+    margin-left: 1rem;
+  }
+  
+  /* Style for the navigation */
+  nav ul {
+    display: flex;
+    margin-right: 0.5rem;
+    margin-left: -1rem;
+  }
+  
+  nav a {
+    font-size: 2rem;
+  }
+  
+  nav ul a {
+    display: block;
+    color: #fff;
+    text-align: left;
+    text-decoration: none;
+    padding: 7px;
+    transition: all 0.3s ease;
+  }
+  
+  nav ul a:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+  }
+  
+  /* Style for the hero section */
+  .hero {
+    background-image: url('tattoo_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0px 10px 10px #888888;
+  }
+  
+  .hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .hero2 {
+    font-size: 15px;
+  }
+  
+  
+  /* Style for the shop section */
+.shop {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 100px;
+    box-shadow: 0px 10px 10px #ff0000;
+  }
+  
+  .shop h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .shop p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product {
+    flex-basis: calc(33.33% - 20px);
+    margin: 20px 0;
+  }
+  
+  .product h3 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .product p {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product button:hover {
+    background-color: #ff0000d7;
+  }
+  
+  
+  /* Style for the sign-up section */
+  .signup {
+    background-color: #000;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0px 10px 10px #888888;
+  }
+  
+  .signup h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .signup label {
+    display: block;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .signup input[type="text"],
+  .signup input[type="email"],
+  .signup input[type="tel"],
+  .signup select,
+  .signup input[type="date"],
+  .signup input[type="time"] {
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+  }
+  
+  .signup button {
+    margin-top: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 20px;
+  }
+
+/* about section */
+.content {
+    margin-top: 80px;
+    padding: 20px;
+  }
+
+.about {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0px 10px 10px #888888;
+    padding-top: 150px; /* Add padding to the top of the section */
+  }
+  
+  .about h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .about-section .quote {
+    font-style: italic;
+    margin-bottom: 40px;
+  }
+  
+  .about-section .artists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .about-section .artist {
+    flex-basis: calc(33.33% - 20px);
+    margin: 20px;
+  }
+  
+  .about-section .artist img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .about-section .artist h3 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .about-section .artist p {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  
+  .about-section .store {
+    margin-bottom: 40px;
+  }
+  
+  .about-section .store h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .about-section .store a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .about-section .equipment {
+    margin-bottom: 40px;
+  }
+  
+  .about-section .equipment h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .about-section .equipment p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .about-section .equipment img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  /* footer */
+  li {
+    list-style-type: none;
+  }
+  footer {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 500;
+    font-size: 18px;
+    transition: all 0.3s ease;
+  }
+  
+  footer a:hover {
+    color: #F9CB40;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(202, 202, 202, 0.5);
+  }
