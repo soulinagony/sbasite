@@ -3,7 +3,9 @@ body {
     background-color: #000;
     color: #fff;
     font-family: 'Courier New', Courier, monospace;
-  }
+    background: url('') no-repeat fixed center;
+    background-size: cover;
+    }
   
   /* Style for the header */
   header {
@@ -319,3 +321,10 @@ body {
     text-align: center;
     box-shadow: 0 0 10px rgba(202, 202, 202, 0.5);
   }
+
+  #particles {
+    background-image: url('cssimages\old-school-tattoo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
